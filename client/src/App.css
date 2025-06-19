@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo h1 {
+  font-size: 28px;
+  color: #c145de;
+  font-family: 'Pacifico', cursive;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+} 
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #c145de;
+}
+
+/* Form Styling */
+main {
+  margin-top: 40px;
+}
+
+.form-container {
+  display: inline-block;
+  background-color: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  font-size: 36px;
+  color: #c145de;
+  font-family: 'Pacifico', cursive;
+}
+
+.form-container p {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1d3557;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #457b9d;
+}
